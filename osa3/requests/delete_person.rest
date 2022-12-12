@@ -1,0 +1,1 @@
+DELETE https://hidden-earth-92521.herokuapp.com/api/persons/62c51406d516a717e0212e11/
