@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IktheXR0YWphMSIsInVzZXJfaWQiOiI2MmVmNGM2YzEyY2M1OWNiZjVjZTExMjAiLCJpYXQiOjE2NjMyMTY5MzMsImV4cCI6MTY2MzIyMDUzM30.5ij5c3th09nuX63FFBwQxTvQzzSoFeF_ius7bZyWkhQ
+
+{
+"title": "Testi428",
+"author": "PasiZZ",
+"url": "www.aaaa.fi",
+"likes": 12
+}
