@@ -1,0 +1,64 @@
+/*  Tyylitiedosto puhelinluettelo-sovellukselle 
+    Kaikki luodut tyylit ovat erillisissä luokissa */
+
+.title{
+    font-size: 30px;
+    color:green;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.person{
+    color: rgb(52, 46, 75);
+    padding-top:1x;
+    font-size:20px;
+}
+
+.personButton{
+    outline-style: solid;
+    outline-width: 1px;
+    position: relative; 
+    left:7px;
+}
+
+.numbers{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*  Ilmoituksien tyylit 
+    copy-pastella kolme kappaletta toisistaan vain värillä eroavia luokkia */
+.added{
+    color: green;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 1px;
+}
+
+.deleted{
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 1px;
+}
+.updated{
+    color: yellow;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 1px;
+}
+
+/*  Näkymättömän laatikon koko pitäisi olla fiksummin yhteydessä ilmoitukseen,
+    Nyt koko on oikea vain yksittäisen arvon perusteella */
+.invisibleBox{
+    padding: 15px;
+    margin-bottom: 9px;
+}
+
